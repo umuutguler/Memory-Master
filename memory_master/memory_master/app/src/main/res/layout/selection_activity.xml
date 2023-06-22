@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backround"
+    tools:context=".difficulty_selection">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="493dp">
+
+        <RadioButton
+            android:id="@+id/radio.kolay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#500808"
+            android:checked="true"
+            android:onClick="checkButton"
+            android:text="KOLAY"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio.orta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#500808"
+            android:onClick="checkButton"
+            android:text="ORTA"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio.zor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#500808"
+            android:onClick="checkButton"
+            android:text="ZOR"></RadioButton>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="623dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="BAŞLA" />
+
+</RelativeLayout>
